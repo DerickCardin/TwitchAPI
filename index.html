@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Twitch API</title>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <h1 style="text-align: center"><img src="watch-now.gif" class="watch-now"></h1>
+    <div class="row">
+      <div class="btn-group btn-group-justified">
+        <div id="btn-group">
+          <button id= "all">ALL STREAMERS</button>
+          <button id="online">ONLINE</button>
+          <button id="offline">OFFLINE</button>
+        </div>
+      </div>
+    </div>
+    <div class="res">
+    </div>
+  </div>
+  <div class='row' id='"+status+"' >
+  <div class='col-md-3 col-xs-4'>
+    <span class='logo'><img class='img img-circle' src='"+logo+"'></span>
+    <a href='"+channel_link+"'>
+      <span class='name text-center' ></span>
+    </a>
+  </div>
+  <div class='col-md-9 col-xs-8 text-center'  id='statusdescription'>
+    <span class='game'></span>
+    <span class='status'></span>
+  </div>
+</div>
+
+  <script src="script.js"></script>    
+    
+</body>
+</html>

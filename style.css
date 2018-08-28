@@ -1,0 +1,86 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #bab3ed;
+    color: purple;
+}
+    
+#all {
+    background-color: #4b367c;
+    margin-left: 20px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+#online {
+    background-color: green;
+     margin-left: 20px;
+     font-family: 'Abril Fatface', cursive;
+     color: white;
+}
+#offline {
+    background-color: gray;
+     margin-left: 20px;
+     font-family: 'Abril Fatface', cursive;
+     color: white;
+}
+
+#btn-group {
+    text-align: center;
+    
+}
+.t-logo {
+    height: 100px;
+}
+.watch-now{
+    height:85px;
+}
+.res {
+  padding: 10px 585px;
+  border: 8px solid;
+  border-color: #dcdde1;
+  border-radius: 10px;
+  background-color: #dff9fb;
+  color: rgba(241, 255, 255, 0.9);
+   
+}
+.res .row:hover {
+  background: #ffa9a0;
+  color: #f5f6fa;
+  border-color: #f5f6fa; 
+    
+}
+.res .row:hover img {
+  border-color: #f5f6fa;
+    
+}
+.res .row {
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+    
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid lightgray; 
+      
+}
+.name {
+  margin-left: 20px; }
+#statusdescription {
+  padding: 65px;
+  padding-right: 200px;
+  margin-right: 50px;
+  color: black;
+    
+}
+.game {
+    font-family: monospace;
+    font-size: 15px;
+}
+.status {
+   text-align: center;
+   font-size: 15px;
+   font-family: monospace;
+   margin-right: 45px;
+}
